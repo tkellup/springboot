@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.springboot.cruddemo.dao</OriginalElement>
+  <nodes>
+    <node x="422.42361111111114" y="83.0">com.example.springboot.cruddemo.service.EmployeeService</node>
+    <node x="169.62500000000003" y="83.0">com.example.springboot.cruddemo.dao.EmployeeDAO</node>
+    <node x="416.0" y="273.0">ch.qos.logback.core.net.server.Client</node>
+    <node x="203.00000000000003" y="166.0">com.example.springboot.cruddemo.service.EmployeeServiceImpl</node>
+    <node x="267.125" y="0.0">com.example.springboot.cruddemo.entity.Employee</node>
+    <node x="0.0" y="166.0">com.example.springboot.cruddemo.dao.EmployeeDAOImpl</node>
+    <node x="442.0" y="166.0">com.example.springboot.cruddemo.rest.EmployeeRestController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.springboot.cruddemo.dao.EmployeeDAOImpl" target="com.example.springboot.cruddemo.dao.EmployeeDAO">
+      <point x="45.75" y="-16.5" />
+      <point x="137.25" y="141.0" />
+      <point x="194.12500000000003" y="141.0" />
+      <point x="-49.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.rest.EmployeeRestController" target="com.example.springboot.cruddemo.entity.Employee">
+      <point x="81.99999999999997" y="-16.5" />
+      <point x="647.0" y="141.0" />
+      <point x="615.9236111111111" y="141.0" />
+      <point x="615.9236111111111" y="53.0" />
+      <point x="375.125" y="53.0" />
+      <point x="48.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.service.EmployeeService" target="com.example.springboot.cruddemo.entity.Employee">
+      <point x="0.0" y="-16.5" />
+      <point x="513.9236111111111" y="63.0" />
+      <point x="351.125" y="63.0" />
+      <point x="24.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.service.EmployeeServiceImpl" target="com.example.springboot.cruddemo.service.EmployeeService">
+      <point x="82.125" y="-16.5" />
+      <point x="394.625" y="141.0" />
+      <point x="452.92361111111114" y="141.0" />
+      <point x="-61.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.service.EmployeeServiceImpl" target="com.example.springboot.cruddemo.dao.EmployeeDAO">
+      <point x="-82.125" y="-16.5" />
+      <point x="230.37500000000003" y="141.0" />
+      <point x="243.12500000000003" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.rest.EmployeeRestController" target="com.example.springboot.cruddemo.service.EmployeeService">
+      <point x="-82.0" y="-16.5" />
+      <point x="483.0" y="141.0" />
+      <point x="513.9236111111111" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.dao.EmployeeDAOImpl" target="com.example.springboot.cruddemo.entity.Employee">
+      <point x="-45.75" y="-16.5" />
+      <point x="45.75" y="141.0" />
+      <point x="66.17361111111114" y="141.0" />
+      <point x="66.17361111111114" y="53.0" />
+      <point x="279.125" y="53.0" />
+      <point x="-48.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.dao.EmployeeDAO" target="com.example.springboot.cruddemo.entity.Employee">
+      <point x="-2.8421709430404007E-14" y="-16.5" />
+      <point x="243.125" y="63.0" />
+      <point x="303.125" y="63.0" />
+      <point x="-24.0" y="16.5" />
+    </edge>
+    <edge source="com.example.springboot.cruddemo.service.EmployeeServiceImpl" target="com.example.springboot.cruddemo.entity.Employee">
+      <point x="27.375" y="-16.5" />
+      <point x="339.875" y="141.0" />
+      <point x="327.125" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="164.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
